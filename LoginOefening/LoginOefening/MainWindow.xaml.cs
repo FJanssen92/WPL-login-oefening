@@ -19,11 +19,13 @@ namespace LoginOefening
         public MainWindow()
         {
             InitializeComponent();
+            passwordTextBox.PasswordChar = '*';
         }
 
+        
         private void loginButton_Click(object sender, RoutedEventArgs e)
         {
-            if (nameTextBox.Text.Equals("admin") && passwordTextBox.Text.Equals("admin"))
+            if (nameTextBox.Text.Equals("admin") && passwordTextBox.Password.Equals("admin"))
             {
                 infoTextBlock.Text = "U wordt ingelogd.";
             }

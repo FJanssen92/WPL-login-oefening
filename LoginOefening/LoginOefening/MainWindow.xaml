@@ -10,10 +10,10 @@
         <Label Content="Naam:" HorizontalAlignment="Left" Margin="146,74,0,0" VerticalAlignment="Top"/>
         <Label Content="Wachtwoord:" HorizontalAlignment="Left" Margin="110,119,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Margin="190,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="passwordTextBox" HorizontalAlignment="Left" Margin="190,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="loginButton" Content="Login" HorizontalAlignment="Left" Margin="103,169,0,0" VerticalAlignment="Top" Width="130" Click="loginButton_Click"/>
         <Button x:Name="logoffButton" Content="Afmelden" HorizontalAlignment="Left" Margin="260,169,0,0" VerticalAlignment="Top" Height="20" Width="130" Click="logoffButton_Click"/>
         <TextBlock x:Name="infoTextBlock" HorizontalAlignment="Left" Margin="190,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="120"/>
+        <PasswordBox x:Name="passwordTextBox" HorizontalAlignment="Left" Margin="190,123,0,0" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
